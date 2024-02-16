@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE : 16.02.2024
+## NAME : PRASANNA R																		             
+## ROLLNUMBER :212221220039
+## DEPARTMENT : IT
 
 
 ## AIM:
@@ -35,10 +35,10 @@ Clock Speed	16 MHz
  
 ![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
 
-FIGURE-01
+
 ![image](https://user-images.githubusercontent.com/36288975/163530431-4d390e98-0942-42d8-95b8-f57d348e6ad8.png)
 
-FIGURE-02
+
 ## PROCEDURE 
  Open tinker cad account 
 1.	Select Arduino uno , bread board , digital input and digital output 
@@ -51,35 +51,49 @@ FIGURE-02
 
 ## CIRCUIT DIAGRAM 
 
-
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
 
-
-
-FIGURE -03
-
-
-
+![image](https://github.com/Prasanna-936/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/main/Screenshot%202024-02-16%20154842.png)
 
 ## PROGRAM 
+```
+int led=3;
+int pushbutton=4;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  if (pb==LOW){
+    digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(500);
+  }
+  else{
+    digitalWrite(led,HIGH);
+    delay(500);
+  }
+    
+   
+}
+```
  
- 
-
-
-
-
-
-
-
-
-
- 
- 
- 
-
-
 
 ## OUTPUT OF SIMULATION :
 
-[My image](username.github.com/repository/img/image.jpg)
+
+![image](https://github.com/Prasanna-936/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/main/Screenshot%202024-02-16%20154940.png)
+![image](https://github.com/Prasanna-936/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/main/Screenshot%202024-02-16%20155155.png)
+
+
+## RESULT:
+Thus the digital interfacing of circuit using Arduino circuit is completed successfully by tinkercard 
+
+
 
