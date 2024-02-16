@@ -31,6 +31,9 @@ Flash Memory	16 KB (ATmega168) or 32 KB (ATmega328) of which 2 KB used by boot l
 SRAM	1 KB (ATmega168) or 2 KB (ATmega328)
 EEPROM	512 bytes (ATmega168) or 1 KB (ATmega328)
 Clock Speed	16 MHz
+
+
+
 ## PIN DIAGRAM FOR ATMEGA 328
  
 ![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
@@ -54,6 +57,9 @@ Clock Speed	16 MHz
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
 
 ![image](https://github.com/Prasanna-936/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/main/Screenshot%202024-02-16%20154842.png)
+
+
+
 
 ## PROGRAM 
 ```
@@ -83,6 +89,9 @@ void loop()
    
 }
 ```
+
+
+
  
 
 ## OUTPUT OF SIMULATION :
@@ -90,6 +99,9 @@ void loop()
 
 ![image](https://github.com/Prasanna-936/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/main/Screenshot%202024-02-16%20154940.png)
 ![image](https://github.com/Prasanna-936/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/main/Screenshot%202024-02-16%20155155.png)
+
+
+
 
 
 ## RESULT:
